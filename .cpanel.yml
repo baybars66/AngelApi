@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dg86quw872gw/Angelapi/
+    - export DEPLOYPATH=/home/dg86quw872gw/AngelApi/
     - /bin/cp Api.js $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp -R Functions $DEPLOYPATH
