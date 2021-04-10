@@ -11,9 +11,9 @@ var con      =    mysql.createPool({
 */
 
     host: "localhost",
-    user: "bay66",
+    user: "Bay77",
     password: "Capan66-Bud",
-    database: "BudgetDatabase",
+    database: "BudgetAngel",
 
 
     connectionLimit : 10,

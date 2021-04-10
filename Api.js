@@ -51,9 +51,9 @@ function Connect() {
     database: "Mrts2020",
 */
     host: "localhost",
-    user: "bay66",
+    user: "Bay77",
     password: "Capan66-Bud",
-    database: "BudgetDatabase",
+    database: "BudgetAngel",
     connect_timeout:1000,
   });
 
