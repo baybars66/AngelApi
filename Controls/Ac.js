@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 const con= require ('../Functions/Connection');
 // const con = mysql.createConnection({
- 
+    const path = require('path');
 
 //     //host: "192.168.1.33",
 //     //host: "localhost",
