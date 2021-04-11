@@ -4,6 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/dg86quw872gw/budget/
     - /bin/cp Api.js $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
     - /bin/cp -R Functions $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
