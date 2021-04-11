@@ -16,6 +16,7 @@ const con= require ('../Functions/Connection');
 
 
 module.exports.PindexCon = (req,res) => {
+    console.log("mmmm");
     res.sendFile(path.join(__dirname, '../public/index.html'));
 
 }
