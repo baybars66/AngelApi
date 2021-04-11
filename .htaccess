@@ -1,0 +1,17 @@
+RewriteEngine On
+DirectoryIndex disabled
+RewriteRule ^$ http://127.0.0.1:10066/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://127.0.0.1:10066/$1 [P,L]
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/dg86quw872gw/budget"
+PassengerBaseURI "/"
+PassengerNodejs "/home/dg86quw872gw/nodevenv/budget/10/bin/node"
+PassengerAppType node
+PassengerStartupFile Api.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
