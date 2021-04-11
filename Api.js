@@ -52,7 +52,7 @@ function Connect() {
 */
     host: "localhost",
     user: "Bay77",
-    password: "Capan66-Bud",
+    password: "Capan66-bud",
     database: "BudgetAngel",
     connect_timeout:1000,
   });
